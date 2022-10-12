@@ -14,6 +14,7 @@ function App() {
       <h1>22.1 State</h1>
       <h4 style={{ color: 'lightseagreen' }}>{title}</h4>
       {/* Provider wraps all the logic that handles/updates our state */}
+      {/* student provider needed for StudentList component */}
       <StudentProvider>
         <StudentList />
       </StudentProvider>

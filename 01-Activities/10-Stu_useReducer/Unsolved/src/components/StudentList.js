@@ -1,5 +1,5 @@
 // TODO: Import useReducer so that we can use it in this component
-import React, { useState } from 'react';
+import React, { useState, useReducer } from 'react';
 
 // TODO: Import our type variables
 
